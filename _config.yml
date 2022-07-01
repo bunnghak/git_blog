@@ -1,0 +1,25 @@
+title:              B군의 삽질기록장
+email:              bunnghak@gmail.com
+description:        이것저것 건드려보고, 삽질해보는 기록을 적는 곳입니다.
+author:             Bunnghak
+baseurl:            "/git_blog"
+url:                "https://bunnghak.github.io"
+
+# Social Profiles
+twitter_username:   
+github_username:    bunnghak
+facebook_username:  
+instagram_username:  
+linkedin_username:
+
+# Add your google-analytics ID here to activate google analytics
+google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+
+# Build settings
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
